@@ -76,8 +76,8 @@ class Claim {
 }
 
 const claims = <Claim>[
-  Claim('"We are an official DOL / OSHA card provider" (not on OSHA\'s list)', true, 'Check before you pay',
-      'OSHA lists its authorized online providers and says it cannot validate training from vendors that are not on that list. A website describing itself as official is a claim, not proof.',
+  Claim('"We are an official DOL / OSHA card provider" for an online course (not on OSHA\'s online list)', true, 'Check before you pay',
+      'OSHA lists its authorized online providers and says it cannot validate training from vendors that are not on that list. This list is for online courses. For a classroom course, use OSHA Find a Trainer instead. A website describing itself as official is a claim, not proof.',
       Link('OSHA authorized online providers', 'https://www.osha.gov/training/outreach/training-providers')),
   Claim('"Pay today, your forklift card is instant, no hands-on test"', true, 'Check before you pay',
       'OSHA 1910.178(l) requires training and an evaluation, and the employer certifies it. A card with no evaluation does not match what the rule describes.',
@@ -88,7 +88,7 @@ const claims = <Claim>[
   Claim('Test site appears on NCCCO\'s practical test site list', false, 'Good sign',
       'NCCCO publishes the practical test sites. Check the date and the crane type there.',
       Link('NCCCO practical test sites', 'https://nccco.org/nccco/get-cco-certified/find-cco-test-locations/find-practical-test-sites')),
-  Claim('Welding school says "AWS certified" but is not in the AWS locator', true, 'Check before you pay',
-      'AWS publishes its Accredited Test Facility locator. Look the facility up yourself.',
+  Claim('Welding school says its test counts toward AWS certification, but you cannot find it in the AWS locator', true, 'Ask before you pay',
+      'Not being in the locator does not prove a problem. The list may not show every site, and a school may only train. Ask which AWS Accredited Test Facility gives the test, then look that facility up in the AWS locator.',
       Link('AWS ATF locator', 'https://my.aws.org/certification/atflocator')),
 ];

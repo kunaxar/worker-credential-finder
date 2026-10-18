@@ -70,7 +70,7 @@ class FindTab extends StatelessWidget {
       card(Text(c.who, style: const TextStyle(fontSize: 15, height: 1.45))),
       label('HOW YOU GET IT'),
       card(Text(c.how, style: const TextStyle(fontSize: 15, height: 1.45))),
-      label('FIND A PROVIDER (OFFICIAL LOCATOR)'),
+      label('WHERE TO LOOK (OFFICIAL SITE)'),
       card(Column(children: [for (final l in c.find) Align(alignment: Alignment.centerLeft, child: linkBtn(l))]), bg: g50),
       label('CHECK BEFORE YOU PAY'),
       for (final q in c.check) card(InkWell(

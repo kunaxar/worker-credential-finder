@@ -117,7 +117,7 @@ class ResearchTab extends StatelessWidget {
         const Text('Research and limits', style: TextStyle(fontSize: 24, fontWeight: FontWeight.w800)),
         const SizedBox(height: 12),
         const Text('WHAT THIS IS', style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: g500, letterSpacing: 1)),
-        b('It points to the issuer\'s own locator or list for each credential. It does not keep its own list of providers, so nothing here goes out of date.'),
+        b('It points to the issuer\'s own locator or list for each credential. It does not keep its own list of providers, so this app does not maintain a provider directory. Links and rules can change, so check the issuer\'s current details.'),
         b('Every issuer and rule shown comes from an official page. The sources are on each credential and below.'),
         const SizedBox(height: 8),
         const Text('WHAT IT DOES NOT DO', style: TextStyle(fontSize: 11, fontWeight: FontWeight.w700, color: g500, letterSpacing: 1)),
